@@ -1,0 +1,10 @@
+C:\Projetos\Numeria\CalcularData\CalcularData\bin\Debug\CalcularData.exe.config
+C:\Projetos\Numeria\CalcularData\CalcularData\bin\Debug\CalcularData.exe
+C:\Projetos\Numeria\CalcularData\CalcularData\bin\Debug\CalcularData.pdb
+C:\Projetos\Numeria\CalcularData\CalcularData\obj\Debug\CalcularData.csprojAssemblyReference.cache
+C:\Projetos\Numeria\CalcularData\CalcularData\obj\Debug\CalcularData.Properties.Resources.resources
+C:\Projetos\Numeria\CalcularData\CalcularData\obj\Debug\CalcularData.csproj.GenerateResource.cache
+C:\Projetos\Numeria\CalcularData\CalcularData\obj\Debug\CalcularData.csproj.CoreCompileInputs.cache
+C:\Projetos\Numeria\CalcularData\CalcularData\obj\Debug\CalcularData.exe
+C:\Projetos\Numeria\CalcularData\CalcularData\obj\Debug\CalcularData.pdb
+C:\Projetos\Numeria\CalcularData\CalcularData\obj\Debug\CalcularData.frmCalcularData.resources
