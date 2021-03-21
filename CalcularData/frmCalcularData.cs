@@ -36,7 +36,7 @@ namespace CalcularData
         private void txtValor_TextChanged(object sender, EventArgs e)
         {
             if (!((txtValor.Text).All(char.IsDigit)) && txtValor.Text != "-")
-                MessageBox.Show("valor informado não é válido.", "Valor inválido");
+                MessageBox.Show("Valor informado não é válido.", "Valor inválido");
 
         }
 
