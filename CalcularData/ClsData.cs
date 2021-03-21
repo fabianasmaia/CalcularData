@@ -35,6 +35,8 @@ public class ClsData
             horaFinal = 0;
             minFinal = 0;
 
+            
+
             //separa data e hora;
             string[] splitDataHora = data.Split();
 

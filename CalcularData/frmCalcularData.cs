@@ -18,6 +18,39 @@ namespace CalcularData
             InitializeComponent();
         }
 
+
+        private void btnLimparCampos_Click(object sender, EventArgs e)
+        {
+            foreach (Control c in panel1.Controls)
+            {
+                if (c is TextBox)
+                    (c as TextBox).Text = "";
+            }
+            string mascara = mskData.Mask;
+
+            mskData.Text = "";
+
+            mskData.Mask = mascara;
+        }
+
+        private void txtValor_TextChanged(object sender, EventArgs e)
+        {
+            if (!((txtValor.Text).All(char.IsDigit)) && txtValor.Text != "-")
+                MessageBox.Show("valor informado não é válido.", "Valor inválido");
+
+        }
+
+        private void txtOperador_TextChanged(object sender, EventArgs e)
+        {
+            if (txtOperador.Text != string.Empty)
+                if (txtOperador.Text != "+" && txtOperador.Text != "-")
+                {
+                    MessageBox.Show("Operador informado não é válido.", "Operador inválido");
+                    txtOperador.Text = string.Empty;
+                }
+
+        }
+
         private void btnCalcular_Click(object sender, EventArgs e)
         {
             try
@@ -36,19 +69,8 @@ namespace CalcularData
             catch (Exception ex)
             {
                 MessageBox.Show($"Verifique os campos. {ex.Message}");
-             
+
             }
-        }
-
-        private void txtOperador_TextChanged(object sender, EventArgs e)
-        {
-            if (txtOperador.Text != string.Empty)
-                if (txtOperador.Text != "+" && txtOperador.Text != "-")
-                {
-                    MessageBox.Show("Operador informado não é válido.", "Operador inválido");
-                    txtOperador.Text = string.Empty;
-                }
-
         }
     }
 }
